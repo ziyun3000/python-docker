@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-  return "Let's test workflow!"
+  return "Let's test workflow again!"
 
 @app.route('/widgets')
 def get_widgets():
