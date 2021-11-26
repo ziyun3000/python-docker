@@ -2,14 +2,13 @@ name: CI to Dcoker hub
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
 steps:
-  
   - name: Check out Repo
     uses: actions/checkout@v2
 
